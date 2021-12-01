@@ -12,13 +12,28 @@
   position: relative;
 }
 
-.title, #score {
+.top {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.title {
   color: #99ddcc;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 24px;
+  padding-left: 100px;
   font-size: 32px;
+  text-align: center;
+}
+
+.score {
+  color: #99ddcc;
+  padding-top: 24px;
+  font-size: 32px;
+  padding-right: 100px;
   text-align: center;
 }
 
