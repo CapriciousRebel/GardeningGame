@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: #160040;
+  position: relative;
+}
+
+.title {
+  color: #99ddcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.myCanvas {
+  position: absolute;
+  left: calc(50% - 512px);
+  top: calc(50% - 256px);
+}
+
+.assets {
+  display: none;
+}
