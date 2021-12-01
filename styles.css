@@ -15,15 +15,13 @@
 .top {
   display: flex;
   width: 100vw;
+  height: calc(50% - 256px);
   justify-content: space-between;
+  align-items: center;
 }
 
 .title {
   color: #99ddcc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 24px;
   padding-left: calc(50% - 512px);
   font-size: 32px;
   text-align: center;
@@ -31,7 +29,6 @@
 
 .score {
   color: #99ddcc;
-  padding-top: 24px;
   font-size: 32px;
   padding-right: calc(50% - 512px);
   text-align: center;
