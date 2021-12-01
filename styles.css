@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.title {
+.title, #score {
   color: #99ddcc;
   display: flex;
   justify-content: center;
